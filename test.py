@@ -35,4 +35,3 @@ def test_wizard_points():
 
 #     assert hp_new == hp -15
 
-test_person_hit()
