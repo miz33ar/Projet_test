@@ -16,7 +16,7 @@ def test_wizard_nom():
 def test_Person_points():
     user=Person('pers')
     hp=user.get_life_points()
-    expected_result=100
+    expected_result=10
     assert hp == expected_result
 
 def test_Person_nom():
