@@ -2,13 +2,13 @@ name: action
 on: [push]
 jobs: 
   test_build_run:
-    runs-on: ubunto-latest
+    runs-on: ubuntu-latest
     steps: 
       - uses: actions/checkout@v2
       - name: Run tests
         run : |
-          python3 test.py
           pip install pytest
+          pip install numpy
           pytest
       - name: build docker image
         run : 
