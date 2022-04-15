@@ -26,16 +26,16 @@ def test_Person_nom():
 
 def test_wizer_hit():
     wiz=Wizard('wiz')
-    hp_wiz=user.get_life_points()
     user=Person('pers')
+    hp_wiz=user.get_life_points()
     hp=user.get_life_points()
     wiz.hit(user)
     hp_new=user.get_life_points()
     assert hp_new == hp -15
 def test_person_hit():
     wiz=Wizard('wiz')
-    hp_wiz=user.get_life_points()
     user=Person('pers')
+    hp_wiz=user.get_life_points()
     hp=wiz.get_life_points()
     user.hit(wiz)
     hp_new=wiz.get_life_points()
@@ -52,6 +52,6 @@ def test_gained_life_points():
     result = user.life_points
     except_result = 120
     assert except_result == result
-    
+
 
 
