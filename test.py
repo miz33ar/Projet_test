@@ -4,7 +4,7 @@ from Module import Wizard,Person,HealthPotion
 def test_wizard_points():
     wiz=Wizard('wiz')
     hp=wiz.get_life_points()
-    expected_result=80
+    expected_result=70
     assert hp == expected_result
 
 # def test_wizard_nom():
