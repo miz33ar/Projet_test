@@ -21,3 +21,7 @@ jobs:
       - name: run docker image
         run : 
           docker run test
+      - name: docker tag
+        run: docker tag test:latest miz33ar/test1:test
+      - name: docker push
+        run: docker push miz33ar/test1:test
