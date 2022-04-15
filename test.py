@@ -1,4 +1,4 @@
-from Module import *
+from Module import Wizard,Person,HealthPotion
 
 
 def test_wizard_points():
