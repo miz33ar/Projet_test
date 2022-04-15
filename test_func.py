@@ -52,3 +52,6 @@ def test_gained_life_points():
     result = user.life_points
     except_result = 120
     assert except_result == result
+    
+
+
