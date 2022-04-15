@@ -27,3 +27,4 @@ if user_2.get_life_points() <= 0:
     print(user_2.name + " wins")
 
 
+print ("zeb")
